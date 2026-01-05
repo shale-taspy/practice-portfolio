@@ -9,5 +9,47 @@
 }
 
 header{
-    background-color: #f0914d;
+    background-color: #FFF8F3;
+    padding-top: 50px;
+}
+
+nav{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+}
+
+.logo h2{
+    font-size:45px ;
+    font-weight: 900;
+}
+.color-orange{
+    color: #FD6E0A;
+}
+
+nav .menu{
+    display: flex;
+    list-style: none;
+    gap: 51px;
+    align-items: center;
+
+}
+
+nav .menu a{
+    font-size: 20px;
+    color: #474747;
+    text-decoration:none ;
+}
+
+.btn{
+    background-color: #FD6E0A;
+    border: none;
+    padding: 19px 36px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
 }
